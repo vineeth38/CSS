@@ -4,6 +4,7 @@ body{
 .navbar{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     column-gap: 40%;
 }
 .navbar-h1{
@@ -13,6 +14,7 @@ body{
 }
 .navbar-links{
     display: flex;
+    flex-wrap: wrap;
     gap: 35px;
     align-items: center;
 }
@@ -39,6 +41,7 @@ body{
 .LandingPage{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 10% 0;
     gap: 4em;
 }
@@ -89,6 +92,7 @@ body{
     align-items:center;
     justify-content: center;
     text-align:center;
+    flex-wrap: wrap;
     padding: 0 500px;
 }
 .intro > h1 {
@@ -113,6 +117,7 @@ body{
 .About{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 10% 0;
     gap: 6em;
 }
@@ -150,6 +155,7 @@ body{
 .Launch{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 15% 0;
     gap: 4em;
 }
@@ -171,6 +177,7 @@ body{
 .product{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 10% 0;
     gap: 4em;
 }
@@ -191,6 +198,7 @@ body{
 .Contact{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 10% 0;
     gap: 4em;
 }
@@ -212,6 +220,7 @@ body{
 .ContactForm form{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 #Name{
     padding: 15px 25px;
