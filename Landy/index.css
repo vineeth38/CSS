@@ -1,0 +1,247 @@
+body{
+    color:rgb(24, 33, 109);
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    column-gap: 40%;
+}
+.navbar-h1{
+    color: rgb(24, 33, 109);
+    font-size: 1.1em;
+    font-family: "Motiva Sans Light", sans-serif;;
+}
+.navbar-links{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.navbar-links a {
+    text-decoration: none;
+    font-family: "Motiva Sans Light", sans-serif;
+    font-size: 1.2em;
+}
+#ContactBtn{
+    color: white;
+    background-color:rgb(24, 33, 109);
+    padding: 10px 35px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(2, 15, 129, 0.37);
+}
+.navbar-links a:hover{
+    color:rgb(254, 93, 64);
+    text-decoration-line:initial;
+}
+#ContactBtn:hover{
+    background-color:rgb(254, 93, 64);
+    cursor: pointer;
+}
+.LandingPage{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+    gap: 4em;
+}
+.Linfo{
+    width: 35%;
+    color:rgb(24, 33, 109);
+}
+.Wimage{
+    width: 35%;
+    margin-top: 5em;
+}
+.Linfo h1{
+ font-family:"Motiva Sans Light", sans-serif;
+ font-size: 3.3em;
+}
+.Linfo p{
+    font-family:"Motiva Sans Light", sans-serif;
+    font-size: 1.3em;
+}
+.LandingPageBtns{
+    display: flex;
+}
+#B-one{
+    padding: 10px 30px;
+    color: white;
+    background-color:rgb(24, 33, 109) ;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px rgba(2, 15, 129, 0.37);
+}
+#B-two{
+    padding: 10px 30px;
+    margin-left: 30px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px rgba(2, 15, 129, 0.37);
+}
+#B-one:hover{
+    background-color:rgb(254, 93, 64);
+    cursor: pointer;
+}
+#B-two:hover{
+    background-color:rgb(254, 93, 64);
+    color: white;
+    cursor: pointer;
+}
+.intro{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    padding: 0 500px;
+}
+.intro > h1 {
+    font-family:"Motiva Sans Light", sans-serif;
+    font-size:4em;
+    }
+.intro > p {
+        font-family:"Motiva Sans Light", sans-serif;
+        font-size:1.5em;
+        }    
+#GetStartBtn{
+    color: white;
+    background-color:rgb(24, 33, 109);
+    padding: 10px 35px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(2, 15, 129, 0.37);
+}
+#GetStartBtn:hover{
+    background-color:rgb(254, 93, 64);
+    cursor: pointer;
+}
+.About{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+    gap: 6em;
+}
+.Abtimg{
+    width: 30%;
+    margin-top: 11em;
+}
+.AbtInfo{
+    width: 30%;
+}
+.AbtInfo > h1 {
+    font-family:"Motiva Sans Light", sans-serif;
+ font-size: 3.3em;
+}
+.AbtInfo > p{
+    font-size:x-large;
+    font-family:"Motiva Sans Light", sans-serif;
+}
+.bookdtls{
+    display: flex;
+    gap:2em
+}
+.book1 > h6{
+    margin-top: 0;
+    text-transform: uppercase;
+    color: black;
+    font-family:"Motiva Sans Light", sans-serif;
+}
+.book2 > h6{
+    margin-top: 0;
+    text-transform: uppercase;
+    color: black;
+    font-family:"Motiva Sans Light", sans-serif;
+}
+.Launch{
+    display: flex;
+    justify-content: center;
+    margin: 15% 0;
+    gap: 4em;
+}
+.LaunchInfo{
+    width: 35%;
+    color:rgb(24, 33, 109);
+}
+.Rocket{
+    width: 35%;
+}
+.LaunchInfo h1{
+    font-family:"Motiva Sans Light", sans-serif;
+    font-size: 3.3em;
+   }
+.LaunchInfo p{
+    font-family:"Motiva Sans Light", sans-serif;
+    font-size: 1.3em;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+    gap: 4em;
+}
+.pimg{
+    width: 30%;
+}
+.AboutProduct{
+    width: 30%;
+}
+.AboutProduct > h1{
+    font-family:"Motiva Sans Light", sans-serif;
+    font-size: 3.3em;
+}
+.AboutProduct > p{
+    font-family:"Motiva Sans Light", sans-serif;
+    font-size: 1.3em;
+}
+.Contact{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+    gap: 4em;
+}
+.ContactInfo{
+    width: 30%;
+    margin-top: 5em;
+}
+.ContactForm{
+    width: 30%;
+}
+.ContactInfo h1{
+    font-family:"Motiva Sans Light", sans-serif;
+    font-size: 3.3em;  
+}
+.ContactInfo p{
+    font-family:"Motiva Sans Light", sans-serif;
+    font-size: 1.3em;  
+}
+.ContactForm form{
+    display: flex;
+    flex-direction: column;
+}
+#Name{
+    padding: 15px 25px;
+    margin: 20px 0;
+    border-radius: 3px;
+    border-color: rgb(24, 33, 109);
+    width: 100%;
+}
+#Email{
+    padding: 15px 25px;
+    margin: 20px 0;
+    border-radius: 3px;
+    border-color: rgb(24, 33, 109);
+    width: 100%;
+}
+#Message{
+    padding: 15px 25px; 
+    margin: 20px 0;
+    border-radius: 3px;
+    border-color: rgb(24, 33, 109);
+    width: 100%;
+    height: 130px;
+}
+#Submitbtn{
+    color: white;
+    background-color:rgb(24, 33, 109);
+    padding: 10px 35px;
+    border-radius: 5px;
+    width: 33%;
+    font-size: 17px;
+    margin-left: 79.1%;
+    box-shadow: 4px 4px 10px rgba(2, 15, 129, 0.37);
+}
