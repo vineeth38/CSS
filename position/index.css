@@ -1,0 +1,70 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+#img1{
+    position: relative;
+    left: 150px;
+    border-radius: 10px;
+    /* z-index: 0; */
+}
+#img2{
+    margin-left: 0;
+    position: relative;
+    top: 80px;
+    right: 560px;
+    border-radius: 10px;
+    /* z-index: 1; */
+}
+.img2{
+    margin-bottom: 0;
+}
+.class1{
+    padding: 3.5em 2.3em;
+    width: 40%;
+    position: relative;
+    left: 590px;
+    bottom: 500px;
+    z-index: 1;
+    background-color: #FFF;
+    border-radius: 15px;
+}
+#para1,#para3{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(195,162,124);
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    font-size: 45px;
+}
+#para2,#para4,#para5{
+    color:rgb(153, 147, 140);
+}
+li{
+    text-transform: uppercase;
+    padding: 7px 5px;
+}
+.class2{
+    padding: 4.5em 2.3em;
+    width: 40%;
+    position: relative;
+    left: 180px;
+    top: -480px;
+    background-color: #FFF;
+    border-radius: 15px;
+}
+#img3{
+    position: relative;
+    left: 780px;
+    border-radius: 10px;
+}
+#img4{
+    position: relative;
+    left: 657px;
+    top: -90px;
+    border-radius: 10px;
+}
