@@ -164,6 +164,7 @@
     .landingImg > h1{
         font-size: 15px;
         left:50%;
+        top:50%;
     }
     #stext{
         display: none;
