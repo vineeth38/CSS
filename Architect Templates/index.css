@@ -148,7 +148,7 @@
 
 @media (max-width:450px){
       .navbar{
-        padding: 20px 3px;
+        padding: 17px 3px;
      }
     .navlinks{
         display: none;
@@ -202,7 +202,7 @@
 
 @media (min-width:450px) and (max-width:768px){
     .navbar{
-        padding: 10px;
+        padding: 20px 10px;
     }
     .navtitle > a{
         padding: 8px 15px;
