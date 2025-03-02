@@ -148,7 +148,7 @@
 
 @media (max-width:450px){
       .navbar{
-        padding: 3px;
+        padding: 8px 3px;
      }
     .navlinks{
         display: none;
